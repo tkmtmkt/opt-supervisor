@@ -1,0 +1,14 @@
+version: '2'
+services:
+  centos6:
+    image: centos:6.8
+    hostname: centos6
+    volumes:
+      - ./centos6/share/:/share/:rw
+      - ./centos6/opt/supervisor/:/opt/supervisor/:rw
+  centos7:
+    image: centos:7.3.1611
+    hostname: centos7
+    volumes:
+      - ./centos7/share/:/share/:rw
+      - ./centos7/opt/supervisor/:/opt/supervisor/:rw
