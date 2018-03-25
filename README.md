@@ -16,3 +16,9 @@ $ make-centos7.sh
 
 * centos6/share/supervisor-centos6-YYYYmmdd.tar.gz
 * centos7/share/supervisor-centos7-YYYYmmdd.tar.gz
+
+以下のコマンドでアーカイブを解凍する。
+
+```sh
+$ sudo tar -xzf supervisor-centos6-YYYYmmdd.tar.gz -C /opt
+```
